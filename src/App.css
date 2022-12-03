@@ -1,0 +1,354 @@
+/* RegisterandLoginpage CSS */
+
+.bodycolor {
+  background: #c31432;
+  background: -webkit-linear-gradient(to left, #240b36, #c31432);
+  background: linear-gradient(to left, #240b36, #c31432);
+  height:750px;
+  
+}
+
+@media screen and (max-width:1000px) {
+  .bodycolor {
+  height:800px;
+  }
+}
+
+@media screen and (max-width:800px) {
+ .bodycolor {
+  height:1050px;
+}
+}
+
+/* Login */
+/* --------------------------------------------------------------------------- */
+.modalcolor {
+  background: #c31432;
+  background: -webkit-linear-gradient(to left, #240b36, #c31432);
+  background: linear-gradient(to left, #240b36, #c31432);
+  
+}
+/* --------------------------------------------------------------------------- */
+
+.modalBackground{
+  background: #c31432;
+  background: -webkit-linear-gradient(to left, #240b36, #c31432);
+  background: linear-gradient(to left, #240b36, #c31432);
+  height:750px;
+  
+}
+
+@media screen and (max-width:1000px) {
+  .modalBackground {
+  height:1000px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .modalBackground {
+  height:915px;
+}
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Userpage CSS */
+
+.color1{
+  background-color: rgb(245, 250, 255);
+  border-radius: 10px;   
+  padding: 20px; 
+}
+
+.des{
+  border: 1px solid tomato;
+  color: cadetblue;
+}
+
+.desb{
+  border: 1px solid black;
+  color: cadetblue;
+}
+
+.price{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.title{
+  color: #003DA5;
+}
+
+.card:hover{
+  transform: scale(1.1)
+}
+
+.card{
+  transition: transform .5s ;
+}
+
+.hello{
+  color: #e40749d4;
+}
+
+.foot{
+background-color:#282828;
+height:100%
+}
+
+.pill{
+height:60px;
+}
+
+.inheri{
+text-decoration: none;
+color: inherit
+}
+
+.inheri:hover{
+color: white;
+}
+
+
+/* Adminpage CSS */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F8F9FA;
+  padding-top: 5px;
+  margin-top: 4rem;
+  overflow-x: hidden;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  color: rgb(71, 69, 69);
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+#Users {
+  margin-left: 160px;
+}
+
+#Employees {
+  margin-left: 160px;
+}
+
+#Messages {
+  margin-left: 160px;
+}
+
+#Newsletter {
+  margin-left: 160px;
+}
+
+.cwd{
+  margin-left: 160px;
+}
+
+#Card1 {
+  margin-left: 160px;
+}
+
+#Card2 {
+  margin-left: 160px;
+}
+
+#Card3 {
+  margin-left: 160px;
+}
+
+#Card4 {
+  margin-left: 160px;
+}
+
+#Card5 {
+  margin-left: 160px;
+}
+
+#Card6 {
+  margin-left: 160px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* media query   1000 px varaikum intha media query (here it works from 801 to 1000) */
+
+@media screen and (max-width:1000px) {
+  .sidenav {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      background-color: #F8F9FA;
+      padding-top: 5px;
+      margin-top: 4.3rem;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+
+
+  }
+
+  .sidenav a {
+      padding: 8px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 21px;
+      color: rgb(71, 69, 69);
+      display: block;
+  }
+
+  .sidenav a:hover {
+      color: black;
+      transform: scale(1.1);
+      transition: transform .5s;
+  }
+
+  #Users {
+      margin-left: 160px;
+  }
+
+  #Employees {
+      margin-left: 160px;
+  }
+
+  #Messages {
+      margin-left: 160px;
+  }
+
+  #Newsletter {
+      margin-left: 160px;
+  }
+
+
+  #Card1 {
+      margin-left: 160px;
+  }
+
+  #Card2 {
+      margin-left: 160px;
+  }
+
+  #Card3 {
+      margin-left: 160px;
+  }
+
+  #Card4 {
+      margin-left: 160px;
+  }
+
+  #Card5 {
+      margin-left: 160px;
+  }
+
+  #Card6 {
+      margin-left: 160px;
+  }
+  .cwd{
+    margin-left: 160px;
+  }
+
+}
+
+
+/* 800px varaikum intha media query */
+@media screen and (max-width:800px) {
+  .sidenav {
+      height: 100%;
+      width: 100px;
+      position: fixed;
+      z-index: 1;
+      background-color: #F8F9FA;
+      padding-top: 5px;
+      margin-top: 3.8rem;
+      top: 0;
+      left: 0;
+      overflow-x: hidden !important;
+
+
+  }
+
+  .sidenav a {
+      padding: 6px 4px 6px 8px;
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(71, 69, 69);
+      display: block;
+  }
+
+  .sidenav a:hover {
+      color: black;
+      transform: scale(1.1);
+      transition: transform .5s;
+  }
+
+  #Users {
+      margin-left: 100px;
+  }
+
+  #Employees {
+      margin-left: 100px;
+  }
+
+  #Messages {
+      margin-left: 100px;
+  }
+
+  #Newsletter {
+      margin-left: 100px;
+  }
+
+
+  #Card1 {
+      margin-left: 100px;
+  }
+
+  #Card2 {
+      margin-left: 100px;
+  }
+
+  #Card3 {
+      margin-left: 100px;
+  }
+
+  #Card4 {
+      margin-left: 100px;
+  }
+
+  #Card5 {
+      margin-left: 100px;
+  }
+
+  #Card6 {
+      margin-left: 100px;
+  }
+  .cwd{
+    margin-left: 100px;
+  }
+}
+
+.hei{
+height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
