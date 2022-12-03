@@ -1,5 +1,4 @@
 export const env = {
-    api: "http://localhost:3001"
+    api: "https://crmbackend1.onrender.com/"
 }
-
 
