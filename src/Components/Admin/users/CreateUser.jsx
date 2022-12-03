@@ -76,8 +76,9 @@ function CreateUser() {
         </div>
         <span style={{ color: "red" }}>{formik.errors.fullName}</span>
         {/* here name la given value yum, initial value la fullname should be same,ony then formik will update  */}
-
-        <label for="companyName" className="form-label mt-2">
+        
+        <div className="mt-1">
+        <label for="companyName" className="form-label mt-1">
           Company Name<span className="text-danger">*</span>
         </label>
         <div className="input-group">
@@ -94,6 +95,7 @@ function CreateUser() {
           />
         </div>
         <span style={{ color: "red" }}>{formik.errors.companyName}</span>
+        </div>
 
         <label for="mn" className="form-label mt-2">
           Mobile Number<span className="text-danger">*</span>
